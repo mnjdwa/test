@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "native_app",
-    "slug": "native_app",
+    "name": "Users",
+    "slug": "users-slug",
     "platforms": [
       "ios",
       "android",
@@ -15,6 +15,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "android": {
+      "package": "com.users.users",
+      "versionCode": 1
+    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -23,13 +27,8 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.mnj.mnj",
+      "bundleIdentifier": "com.users.users",
       "buildNumber": "1.0.0"
-    },
-    "android": {
-      "package": "com.mnj.mnj",
-      "versionCode": 1
     }
-    
   }
 }
